@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+     
+}
+
+body{
+color: white;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color:rgb(1, 1, 82);
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo{
+    font-size: 25px;
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.navbar a{
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition:.3s ;
+    
+
+}
+
+.navbar a:hover, 
+.navbar a.active{
+    color: red;;
+}
+
+.login{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color:rgb(70, 70, 194);
+}
+.geek1 {
+    font-size: 23px;
+    color: white;
+}
+
+.slider{
+display: flex;
+height: 50px;
+margin: 0;
+}
+
+button{
+position: absolute;
+border-radius: 30px;
+}
+img{
+object-fit:cover;
+}
+.child{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.prev_btn {
+left: 15px;
+/* background: black;
+color: azure; */
+}
+.next_btn {
+right: 15px;
+/* background: black; */
+}
